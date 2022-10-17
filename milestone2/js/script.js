@@ -34,7 +34,7 @@ for (let i = 0; i < imgsArray.length; i++){
 console.log(item);
 // item[counter].classList.remove("hide-item");
 gallery.innerHTML += imgTag;
-item[0].classList.add("show-item");
+item[counter].classList.add("show-item");
 
 // console.log(imgTag);
 
